@@ -1,0 +1,33 @@
+body{
+
+    background-color: lightgray;
+    margin:0px;
+   }
+   
+   ul{
+   
+       list-style-type:none;
+       padding:5px;
+       background-color:rgb(71, 42, 165);
+       overflow:hidden;
+   }
+   
+   li {
+       float:left;
+       border-right: 1px solid black;
+   }
+   
+   li a {
+       display:block;
+       padding: 10px;
+       text-decoration: none;
+       font-size:20px;
+       color:white;
+       text-align:left;
+   }
+   
+   li a:hover{
+       background-color:rgb(43, 43, 43);
+       color:yellow;
+   
+   }
